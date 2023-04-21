@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.home h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.home button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: #0d6efd;
+}
